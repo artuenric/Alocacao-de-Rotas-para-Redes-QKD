@@ -18,7 +18,7 @@ O objetivo deste projeto é analisar como diferentes parâmetros da rede QKD afe
 * `Variando o número de qubits.ipynb`: Notebook com a análise de desempenho ao variar a quantidade de qubits nos links.
 * `N Requests x Vazão.ipynb`: Notebook focado na análise da vazão da rede em relação ao número de requisições.
 * `grafico_*.pdf`: Arquivos PDF gerados pelos notebooks, contendo os gráficos com os resultados das simulações.
-* `requests.txt` e `requestspredefinidas.py`: Arquivos que definem as requisições de chaves utilizadas nos cenários de simulação.
+
 
 ## Como Executar as Análises
 
@@ -27,4 +27,4 @@ O objetivo deste projeto é analisar como diferentes parâmetros da rede QKD afe
 Certifique-se de ter Python e as bibliotecas necessárias instaladas. Recomenda-se o uso de um ambiente virtual.
 
 ```bash
-pip install matplotlib networkx jupyterlab
+pip install -r requirements.txt
