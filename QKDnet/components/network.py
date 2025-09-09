@@ -266,28 +266,6 @@ class Network():
         self.G, self.channels = self.assign_to_net(G)
     
     ### Topologias especiais ###
-    def set_USA_topology(self):
-        """
-        Cria uma rede com topologia dos EUA.
-        """
-        # Update network topology
-        self.topology = "USA"
-        G = nx.Graph()
-
-        # Define the edges of the graph
-        edges = [
-            (1, 2), (1, 6), (2, 3), (2, 6), (3, 4), (3, 7), (4, 5), (4, 7), (4, 8), 
-            (5, 8), (6, 7), (6, 9), (6, 11), (7, 8), (7, 9), (9, 10), (9, 12), (10, 13), 
-            (10, 14), (11, 15), (12, 13), (12, 16), (13, 14), (13, 17), (14, 18), (15, 16), 
-            (15, 19), (16, 17), (16, 21), (17, 18), (17, 22), (18, 23), (18, 24), (19, 20), 
-            (20, 21), (21, 22), (22, 23), (23, 24)
-        ]
-
-        # Add the edges to the graph
-        G.add_edges_from(edges)
-        G = nx.convert_node_labels_to_integers(G)
-        
-        self.G, self.channels = self.assign_to_net(G)
         
     def set_china_topology(self):
         """
