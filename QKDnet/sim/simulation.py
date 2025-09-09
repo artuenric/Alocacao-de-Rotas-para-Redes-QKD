@@ -20,27 +20,6 @@ class Simulation:
         self.key_sucess_rate = []
         self.key_sucess_rate = 0
         
-    
-    # Implementados futuramente:
-    
-    # def set_apps(self, apps):
-        # """
-        # Define as apps disponíveis para a simulação.
-
-        # Args:
-        #     apps (list): Lista com os nomes das apps disponíveis.
-        # """
-        # self.apps = apps
-        
-    # def set_n_simulations(self, n):
-    #     """
-    #     Define o número de simulações.
-
-    #     Args:
-    #         n (int): Número de simulações.
-    #     """
-    #     pass
-    
     def set_case(self, case):
         """
         Define o caso para simulação. Os casos vão de 1 a 9. Representam as diferentes formas de distribuição das classes.
