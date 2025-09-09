@@ -77,12 +77,3 @@ def generate_requests(case, n_requests, apps, apps_distribution, n_nodes, range_
         requests.append(r)
         
     return requests
-
-# Escrever requests no arquivo
-#requests_aleatorias = generate_requests(case, n_requests, apps, apps_distribution, n_nodes, range_max_time)
-#write_requests_to_file("requests.txt", requests_aleatorias)
-
-# Ler requests do arquivo e imprimir
-#requests_lidas = read_requests_from_file("requests.txt")
-# for request in requests_lidas:
-    #print(request)
